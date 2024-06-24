@@ -269,16 +269,18 @@
 
                             <!-- Item -->
                             <div class="">
-                                <b class="text-muted">Notes</b>
+                                <a data-toggle="collapse" href="#viewnotes" class="text-muted font-weight-bold">Notes <i class="fa-solid fa-circle-ellipsis"></i></a>
+                                <div class="collapse" id="viewlogs">
                                 <div class="pl-3 text-pre notes"></div>
+                                </div>
                             </div>
 
                             <hr>
 
                             <!-- Item -->
                             <div class="">
-                                <a data-toggle="collapse" href="#translog" class="text-muted">Transaction Log <i class="fa-solid fa-circle-chevron-down"></i></a>
-                                <div class="collapse" id="translog">
+                                <a data-toggle="collapse" href="#viewlogs" class="text-muted font-weight-bold">Transaction Log <i class="fa-solid fa-circle-ellipsis"></i></a>
+                                <div class="collapse" id="viewlogs">
                                 <div class="pl-3 pt-2 small" id="log-table">
                                     <div class="d-none">
                                         <div class="row no-gutters" id="log-entry">
