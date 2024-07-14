@@ -140,7 +140,7 @@ let options = {
         sheetPage: sheetPages.faq,
     
         itemAmount: 24,
-        itemOrder: "asc",
+        // itemOrder: "asc",
     
         searchFilterParams: ['Tags'],
     
