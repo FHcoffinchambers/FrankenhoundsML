@@ -28,7 +28,7 @@ body {
   /* Backgrounds
   ================================================================ */
   --cd-body-background-color:            #fee3c8;
-  --cd-content-background-color:         #ffffff;
+  --cd-content-background-color:         #e6dada;
   --cd-faded-background-color:           #f8f8f8;
 
   /* Background Extras */
@@ -105,8 +105,8 @@ body {
   /* Link
   ================================================================ */
 
-  --cd-link-text-color:                  #4c8ebd;
-  --cd-link-text-color-hover:            var(--cd-secondary-color);
+  --cd-link-text-color:                  var(--cd-secondary-color);
+  --cd-link-text-color-hover:            var(--cd-primary-color);
 
 
   /* ============================================================= */
