@@ -37,7 +37,7 @@ body {
   /* ============================================================= */
   /* Text
   ================================================================ */
-  --cd-body-text-color:                  #303030;
+  --cd-body-text-color:                  #dcbd7d;
   --cd-faded-text-color:                 #575757;
 
   /* ============================================================= */
@@ -437,7 +437,6 @@ a.badge.badge-primary:active  {
   background-color: var(--cd-button-background-color-hover) !important;
   box-shadow: none !important;
 }
-
 
 /* ============================================================= */
 /* Input
