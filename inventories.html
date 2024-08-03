@@ -173,9 +173,9 @@
                     <div class="col-md-4 col-6 p-2" id="item-list-col">
                         <a class="btn btn-primary d-block text-center p-2 itemlink" href="">
                             <img class="item-img img-fluid gallery-img" src="">
-                            <a class="btn btn-primary d-block mt-3">
+                            <span class="d-block mt-3">
                                 <span class="item"></span> x<span class="amount"></span>
-                            </a>
+                            </span>
                         </a>
                     </div>
 
@@ -184,24 +184,30 @@
                 <hr>
 
                 <div class="p-md-5 px-4 pt-4 pb-1">
-                    <h4>Owned Frankies - Official</h4>
-                    <span class="userofh row no-gutters mx-auto"></span>
+                    <h4><a data-toggle="collapse" href="#viewofh" class="text-muted"><i class="fas fa-chevron-down btn btn-primary btn-sm"></i> Owned Frankies - Official</h4>
+                    <div class="collapse" id="viewofh">
+                        <span class="userofh row no-gutters mx-auto"></span>
+                    </div>
                 </div>
                     
                 <div class="p-md-5 px-4 pb-4 pt-1">
-                    <h4>Owned Frankies - MYO</h4>
-                    <span class="usermyo row no-gutters mx-auto"></span>
+                    <h4><a data-toggle="collapse" href="#viewmyo" class="text-muted"><i class="fas fa-chevron-down btn btn-primary btn-sm"></i> Owned Frankies - MYO</h4>
+                    <div class="collapse" id="viewmyo">
+                        <span class="usermyo row no-gutters mx-auto"></span>
+                    </div>
                 </div>
 
                 <hr>
                 
                 <div class="p-md-5 p-4">
-                    <h4>Transaction Log</h4>
-                    <div class="pl-4" id="log-table">
-                        <div class="d-none">
-                            <div class="row no-gutters" id="log-entry">
-                                <div class="col-md-3"><span class="timestamp"></span></div>
-                                <div class="col-md-9"><span class="reason"></span></div>
+                    <h4><a data-toggle="collapse" href="#viewlogs" class="text-muted"><i class="fas fa-chevron-down btn btn-primary btn-sm"></i> Transaction Log</h4>
+                    <div class="collapse" id="viewlogs">
+                        <div class="pl-4" id="log-table">
+                            <div class="d-none">
+                                <div class="row no-gutters" id="log-entry">
+                                    <div class="col-md-3"><span class="timestamp"></span></div>
+                                    <div class="col-md-9"><span class="reason"></span></div>
+                                </div>
                             </div>
                         </div>
                     </div>
