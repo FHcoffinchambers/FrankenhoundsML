@@ -44,8 +44,8 @@ body {
   /* Borders
   ================================================================ */
   --cd-border-color:                     #3f0000;
-  --cd-border-width:                     2px;
-  --cd-border-style:                     dashed;
+  --cd-border-width:                     1px;
+  --cd-border-style:                     solid;
   --cd-border-radius:                    0rem;
 
   /* ============================================================= */
